@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    outline: none;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.container{
+    width: 70%;
+    margin:  0 auto;
+}
+.container.nav{
+    display: grid;
+    grid-template-columns: 15% 55% 30%;
+    
+}
+
+.logo{
+    width: 130px;
+    height: 70px;
+    margin-top: 10px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    font-size: 14px;
+}
+
+.links a{
+    font-family: Arial;
+    text-decoration: none;
+    color: black;
+}
+
+.user-connect{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.user-connect .user-btn{
+    color: white;
+    border-radius: 4px;
+    background-color: #0468ff;
+    outline: none;
+    border:none;
+    padding: 6px 15px;
+}
+
+.user-connect .button-enter {
+    background-color: #e5f0ff;
+    color: #0468ff;
+}
+
+.menu_select{
+    padding: 10px;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.button-advert{
+    margin-right: 15px;
+}
+
+.head{
+    background-image: url(img/dom.jpg);
+    padding: 110px 0;
+}
+
+.menu_container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.menu{
+    background-color: white;
+    padding: 25px;
+    border-radius: 0 10px 10px 10px ;
+    display: grid;
+    grid-template-columns: 25% 15% 15% 45%;
+    color: #3d3d3d;
+}
+
+.menu_links ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.menu_links li{
+    background-color: #3a3d3c;
+    padding: 15px;
+    border-radius: 5px 5px 0 0;
+    opacity: 0.8;
+}
+
+.menu_links a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu_links #active{
+    background-color: white;
+    color: black;
+    opacity: 1;
+}
+
+.menu-buttons{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0px;
+    border-radius: 5px 5px 0 0; 
+}
+
+.search{
+    background-color: #0468ff;
+    color: white;
+    border: none;   
+}
+.show-map{
+    background-color: white;
+    color: black;
+    border: none;   
+}
+
+.menu-buttons button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none; 
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.menu-title{
+    margin-bottom: 35px;
+    color: white;
+    font-size: 20px;
+}
+
+.menu-title h1{
+    text-shadow: 0 2px 4px rgb(0 0 0 / 50%);
+}
+
+.recom{
+    width: 70%;
+    margin: 0 auto;
+    font-weight: 500;
+}
+
+.recom-item{
+    width: 24%;
+    background-color: white;
+    font-size: 14px;
+}
+
+.recom-item img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.recom-station::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: chartreuse;
+    border-radius: 50px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.recom-time{
+    color: #7a7a7a;
+}
+
+.recom-item p{
+    padding: 5px 0;
+
+}
+
+main{
+    background-color: #f4f4f4;
+}
+
+.recom-info{
+    padding: 15px;
+}
+
+.recom-name{
+    font-weight: 700;
+}
+
+.recom-cards{
+   display: flex;
+   justify-content: space-between;
+}
+
+
+.recom-title{
+    margin: 20px 0;
+}
+
+
+.popular{
+    width: 70%;
+    margin:0 auto ;
+}
+
+.popular-sell{
+    display: flex;
+    text-decoration: none;
+    padding: 15px 0px;
+}
+
+.popular-sell a{
+    color: rgb(131, 131, 131);
+    text-decoration: none;
+    padding: 2px 10px;
+}
+
+.popular-sell .active{
+    text-decoration: underline;
+    text-decoration-color:#2b87db;
+    color: black;
+    text-decoration-thickness: 3px;
+    text-underline-position: under;
+}
+
+.popular-location::before{
+content: "";
+width: 10px;
+height: 10px;
+background-color: rgb(255, 51, 0);
+border-radius: 50px;
+display: inline-block;
+margin-right: 5px;
+}
+
+.popular-item{
+    width: 24%;
+    background-color: white;
+}
+
+.popular-img img{
+    width: 100%;
+    height: 215px;
+    object-fit: cover;
+}
+
+.popular-price{
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.popular-disc{
+    font-weight: 600;
+}
+
+.popular-item p{
+    margin: 7px 0;
+}
+
+.popular-info{
+    padding: 15px;
+}
+
+.popular-time{
+    color: gray;
+}
+
+.popular-items{
+    display: flex;
+   justify-content: space-between;
+   width: 100%;
+}
+
+.popular-title{
+    margin: 20px 0;
+
+}
+
+.popular-nav li{
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.popular-nav li a{
+    color: #2b87db;
+}
+
+.popular-nav p{
+    font-weight:600;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.more{
+    transform: rotate(45deg);
+}
+
+.popular-nav span{
+    color: grey;
+}
+
+.popular-nav{
+    width: 24%;
+}
+
+.popular-nav ul:nth-child(2){
+    margin-top: 40px;
+
+}
+
+footer .container{
+    width: 70%;
+    margin: auto;
+    padding: 50px 0;
+    color: #7a7a7a;
+}
+
+.footer-desc p{
+    margin-bottom: 30px;
+    font-size: 14px;
+
+}
+
+hr{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.footer-links a{
+    margin-right: 20px;
+    font-size: 12px;
+    color: #7a7a7a;
+    margin-bottom: 10px;
+}
+
+.footer-links a:nth-child(13){
+    color:  #0468ff;
+}
+
+.partners{
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+}
+
+.cian-group{
+    display: flex;
+    width: 40%;
+}
+
+.cian-group p{
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.cian-group img{
+    width: 135px;
+    height: 28px;
+}
+
+.mobile-app{
+    display: flex;
+}
+
+.mobile-app img{
+    height: 41px;
+    width: 111px;
+    margin: 0 20px 0 25px;
+}
+
+.app-store{
+    height: 31px;
+    width: 111px;
+    margin: 0 20px 0 25px;
+    background-image: url(./img/app-store.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    display: inline-block;
+}
+
+.google-app{
+    height: 29px;
+    width: 135px;
+    background-image: url(./img/google-store.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.app-gallery{
+    height: 29px;
+    width: 135px;
+    background-image: url(./img/app-gallery.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.partners-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 0 0;
+}
